@@ -11,10 +11,10 @@ please contact to <yusukeishihara87@gmail.com>
 
 ## ℹ️ How to use
 
-[About this app](https://portfolio-yishihara11201.vercel.app/articles/BedtimeSmartphone)
+[About this app](https://yishihara11201.vercel.app/posts/EyeDamage)
 
 
 ## 🔐 Prvacy Policy
 
-[privacy policy](https://yishihara11201.github.io/Bedtime-Smartphone/PrivacyPolicy)
+[privacy policy](https://yishihara11201.github.io/Eye_Damage/PrivacyPolicy)
 
