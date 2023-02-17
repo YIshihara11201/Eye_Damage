@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in closure #1 in Setting.body.getter:Setting.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "timerSetting.userDefaultsWakeUp">
+            </PersistentString>
+            <PersistentString
+               value = "Date()">
+            </PersistentString>
+            <PersistentString
+               value = "appState.receivedNotification">
+            </PersistentString>
+            <PersistentString
+               value = "timerSetting.wakeUp">
+            </PersistentString>
+            <PersistentString
+               value = "storedBedtime">
+            </PersistentString>
+            <PersistentString
+               value = "timerSetting.bedtime">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AppDelegate.init():AppDelegate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "timerSetting.wakeUp">
+            </PersistentString>
+            <PersistentString
+               value = "timerSetting.bedtime">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #3 in ContentView.body.getter:ContentView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "timerSetting.wakeUp">
+            </PersistentString>
+            <PersistentString
+               value = "timerSetting.bedtime">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in closure #1 in closure #1 in Report.body.getter:Report.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "report">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in AppDelegate.userNotificationCenter(_:didReceive:withCompletionHandler:):AppDelegate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "newPushToken">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #4 in ContentView.body.getter:ContentView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "timerSetting.wakeUp">
+            </PersistentString>
+            <PersistentString
+               value = "timerSetting.bedtime">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ContentView.body.getter:ContentView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "storedWakeUp">
+            </PersistentString>
+            <PersistentString
+               value = "storedBedtime">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in closure #1 in Setting.body.getter:Setting.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "storedBedtime">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in EyeDamageApp.body.getter:EyeDamageApp.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "appDelegate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AppDelegate.userNotificationCenter(_:didReceive:withCompletionHandler:):AppDelegate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "activity">
+            </PersistentString>
+            <PersistentString
+               value = "appState.receivedNotification">
+            </PersistentString>
+            <PersistentString
+               value = "c">
+            </PersistentString>
+            <PersistentString
+               value = "token">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #2 in EyeDamageApp.body.getter:EyeDamageApp.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "appDelegate.appState">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
