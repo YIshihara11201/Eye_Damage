@@ -28,9 +28,6 @@ In addition, I implemented summary report functionality so that users can identi
 - iOS: 16.1 or later
 - Vapor: version 4.0
 
-## Repository
-[EyeDamage Repository](https://github.com/DaiSugi01/Queens-game)
-
 ## Usage
 1. You will set bed time and wakeup time on the Setting tab.
 
