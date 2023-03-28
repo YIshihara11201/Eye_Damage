@@ -8,11 +8,12 @@
 import SwiftUI
 
 struct Report: View {
+    @Environment(\.scenePhase) private var scenePhase
 	@State var firstWeekDay = Calendar.current.date(bySettingHour: 0, minute: 0, second: 0, of: Date().getLastWeekday(weekday: .sunday))!
 	
 	var body: some View {
-		let allReports = ReportManager.getAllReports()
-		let weekReport = ReportManager.getWeeklyReports(allReport: allReports, firstWeekDay: firstWeekDay)
+		var allReports = ReportManager.getAllReports()
+		var weekReport = ReportManager.getWeeklyReports(allReport: allReports, firstWeekDay: firstWeekDay)
 		
 		GeometryReader {
 			geometry in
@@ -107,6 +108,12 @@ struct Report: View {
 			.frame(alignment: .center)
 			.padding(10)
 		}
+        .onChange(of: scenePhase) { newScenePhase in
+            if newScenePhase == .active {
+                allReports = ReportManager.getAllReports()
+                weekReport = ReportManager.getWeeklyReports(allReport: allReports, firstWeekDay: firstWeekDay)
+            }
+        }
 	}
 	
 	func calculateRowWidth(_ graphWidth: Double, _ dailyReport: DailyReport, _ weeklyReport: WeeklyReport) -> Double {
