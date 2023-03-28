@@ -63,3 +63,15 @@ struct WeeklyReport: Codable {
 	}
 	
 }
+
+extension WeeklyReport: CustomStringConvertible {
+    func encoded() -> Data {
+        let encoder = JSONEncoder()
+        encoder.dateEncodingStrategy = .iso8601
+        return try! encoder.encode(self)
+    }
+    
+    var description: String {
+        return String(data: encoded(), encoding: .utf8) ?? "Invalid weekly report"
+    }
+}
