@@ -56,9 +56,6 @@ struct ReportManager {
 			report.startDayOfWeek == targetWeek
 		}) {
 			currWeekReports.reports.append(newReport)														// update weekly report
-			currWeekReports.reports.removeAll(where: { report in
-				report.weekDay == newReport.weekDay
-			})
 			allReports.reports.removeAll(where: { report in											// remove previous current week reports from whole reports
 				report.startDayOfWeek == targetWeek
 			})
